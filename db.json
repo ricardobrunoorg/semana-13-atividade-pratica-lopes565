@@ -1,0 +1,305 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "nome": "Toyota Supra MK4",
+      "ano": "1993",
+      "motor": "2JZ-GTE",
+      "potencia": "320 cv",
+      "descricao": "Lenda absoluta do tuning japonês.",
+      "historia": "O Supra MK4 ficou famoso pelo motor 2JZ-GTE, extremamente resistente e capaz de suportar mais de 1000 cv com modificações. Tornou-se um ícone mundial após aparecer na franquia Velozes e Furiosos como o carro de 10 segundos de Brian.",
+      "imagem": "img/supra.jpg",
+      "categoria": "Toyota",
+      "preco": 320000,
+      "tags": ["JDM", "2JZ", "Turbo"],
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "Supra de Velozes e Furiosos",
+          "imagem": "img/suprabrian.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Toyota AE86 Trueno",
+      "ano": "1983",
+      "motor": "4A-GE",
+      "potencia": "130 cv",
+      "descricao": "O carro que ajudou a popularizar o drift.",
+      "historia": "O AE86 ficou famoso graças ao piloto Keiichi Tsuchiya, o Drift King. Também ganhou enorme popularidade através do anime Initial D.",
+      "imagem": "img/ae86.jpg",
+      "categoria": "Toyota",
+      "preco": 120000,
+      "tags": ["Drift", "Initial D"],
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "AE86 Drift",
+          "imagem": "img/ae86.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Nissan Skyline GT-R R32",
+      "ano": "1989",
+      "motor": "RB26DETT",
+      "potencia": "280 cv",
+      "descricao": "O lendário Godzilla.",
+      "historia": "O R32 dominou o automobilismo japonês e recebeu o apelido de Godzilla após destruir a concorrência em campeonatos internacionais.",
+      "imagem": "img/r32.jpg",
+      "categoria": "Nissan",
+      "preco": 250000,
+      "tags": ["Godzilla", "Skyline"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "R32 Godzilla",
+          "imagem": "img/r32.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Nissan Skyline GT-R R33",
+      "ano": "1995",
+      "motor": "RB26DETT",
+      "potencia": "280 cv",
+      "descricao": "Mais refinado e tecnológico.",
+      "historia": "O R33 foi o primeiro GT-R a completar Nürburgring abaixo de 8 minutos.",
+      "imagem": "img/r33.jpg",
+      "categoria": "Nissan",
+      "preco": 280000,
+      "tags": ["Skyline", "GT-R"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "R33",
+          "imagem": "img/r33.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Nissan Skyline GT-R R34",
+      "ano": "1999",
+      "motor": "RB26DETT",
+      "potencia": "280 cv",
+      "descricao": "O GT-R mais famoso da história.",
+      "historia": "O R34 ficou eternizado em jogos, filmes e na cultura automotiva mundial.",
+      "imagem": "img/r34.jpg",
+      "categoria": "Nissan",
+      "preco": 500000,
+      "tags": ["Skyline", "Brian O'Conner"],
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "R34 de Velozes e Furiosos",
+          "imagem": "img/r34_brian.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Nissan GT-R R35",
+      "ano": "2007",
+      "motor": "VR38DETT",
+      "potencia": "480 cv",
+      "descricao": "O supercar killer.",
+      "historia": "O R35 abandonou o nome Skyline e passou a competir diretamente com supercarros.",
+      "imagem": "img/r35.jpg",
+      "categoria": "Nissan",
+      "preco": 650000,
+      "tags": ["GT-R", "Turbo"],
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "R35",
+          "imagem": "img/r35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Mazda RX-7 FC",
+      "ano": "1985",
+      "motor": "13B Rotary",
+      "potencia": "200 cv",
+      "descricao": "Primeira geração famosa do RX-7.",
+      "historia": "O RX-7 FC ajudou a consolidar o motor rotativo da Mazda.",
+      "imagem": "img/rx7fc.jpg",
+      "categoria": "Mazda",
+      "preco": 180000,
+      "tags": ["Rotary"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "RX7 FC",
+          "imagem": "img/rx7fc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Mazda RX-7 FD",
+      "ano": "1992",
+      "motor": "13B-REW",
+      "potencia": "255 cv",
+      "descricao": "Um dos JDM mais bonitos já feitos.",
+      "historia": "O RX-7 FD utilizava um motor rotativo biturbo.",
+      "imagem": "img/rx7.jpg",
+      "categoria": "Mazda",
+      "preco": 350000,
+      "tags": ["RX7", "Rotary"],
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "RX7 FD",
+          "imagem": "img/rx7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Mazda RX-8",
+      "ano": "2003",
+      "motor": "Renesis Rotary",
+      "potencia": "238 cv",
+      "descricao": "O último esportivo rotativo da Mazda.",
+      "historia": "O RX-8 manteve viva a tradição dos motores rotativos.",
+      "imagem": "img/rx8.jpg",
+      "categoria": "Mazda",
+      "preco": 150000,
+      "tags": ["Rotary"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "RX8",
+          "imagem": "img/rx8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Nissan Silvia S13",
+      "ano": "1988",
+      "motor": "SR20DET",
+      "potencia": "205 cv",
+      "descricao": "Ícone do drift.",
+      "historia": "O Silvia S13 é um dos carros mais usados na história do drift.",
+      "imagem": "img/s13.jpg",
+      "categoria": "Nissan",
+      "preco": 140000,
+      "tags": ["Drift"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "Silvia S13",
+          "imagem": "img/s13.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Nissan Silvia S15",
+      "ano": "1999",
+      "motor": "SR20DET",
+      "potencia": "250 cv",
+      "descricao": "A última geração Silvia.",
+      "historia": "O S15 é considerado por muitos a melhor geração Silvia.",
+      "imagem": "img/s15.jpg",
+      "categoria": "Nissan",
+      "preco": 220000,
+      "tags": ["Drift", "Silvia"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "Silvia S15",
+          "imagem": "img/s15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Nissan 350Z",
+      "ano": "2002",
+      "motor": "VQ35DE",
+      "potencia": "287 cv",
+      "descricao": "O retorno da linha Z.",
+      "historia": "O 350Z virou favorito em eventos de drift.",
+      "imagem": "img/350z.jpg",
+      "categoria": "Nissan",
+      "preco": 170000,
+      "tags": ["Z Series"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "350Z",
+          "imagem": "img/350z.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Nissan 370Z",
+      "ano": "2009",
+      "motor": "VQ37VHR",
+      "potencia": "332 cv",
+      "descricao": "Evolução direta do 350Z.",
+      "historia": "O 370Z trouxe mais potência e melhor dirigibilidade.",
+      "imagem": "img/370z.jpg",
+      "categoria": "Nissan",
+      "preco": 220000,
+      "tags": ["Z Series"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "370Z",
+          "imagem": "img/370z.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Nissan Z (400Z)",
+      "ano": "2023",
+      "motor": "VR30DDTT",
+      "potencia": "400 cv",
+      "descricao": "O renascimento da linha Z.",
+      "historia": "O novo Nissan Z combina design clássico com tecnologia moderna.",
+      "imagem": "img/400z.jpg",
+      "categoria": "Nissan",
+      "preco": 450000,
+      "tags": ["400Z", "Biturbo"],
+      "destaque": false,
+      "fotos": []
+    },
+    {
+      "id": 15,
+      "nome": "Mitsubishi Eclipse",
+      "ano": "1995",
+      "motor": "4G63T",
+      "potencia": "210 cv",
+      "descricao": "Esportivo americano com alma japonesa.",
+      "historia": "O Eclipse ganhou fama após aparecer em Velozes e Furiosos.",
+      "imagem": "img/eclipse.jpg",
+      "categoria": "Mitsubishi",
+      "preco": 130000,
+      "tags": ["Fast and Furious"],
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "Eclipse de Velozes e Furiosos",
+          "imagem": "img/eclipsebrian.jpg"
+        }
+      ]
+    }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Toyota" },
+    { "id": 2, "nome": "Nissan" },
+    { "id": 3, "nome": "Mazda" },
+    { "id": 4, "nome": "Mitsubishi" }
+  ]
+}
